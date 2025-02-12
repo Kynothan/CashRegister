@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister", "CashRegister\CashRegister.csproj", "{3B85FC20-03E9-493F-B293-46AF661EF283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister.Infrastructure", "CashRegister.Infrastructure\CashRegister.Infrastructure.csproj", "{F1ED7ED7-DA0F-4B62-911F-CF52311475F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister.Core", "CashRegister.Core\CashRegister.Core.csproj", "{3321E26C-2824-4724-B9AC-7254ABEC2503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister.Application", "CashRegister.Application\CashRegister.Application.csproj", "{A2992591-5545-49EC-9DD2-00542C201A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister.DependencyInjection", "CashRegister.DependencyInjection\CashRegister.DependencyInjection.csproj", "{81FA79F2-651C-49BF-9ECF-3E18A784AD69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B85FC20-03E9-493F-B293-46AF661EF283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B85FC20-03E9-493F-B293-46AF661EF283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B85FC20-03E9-493F-B293-46AF661EF283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B85FC20-03E9-493F-B293-46AF661EF283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1ED7ED7-DA0F-4B62-911F-CF52311475F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1ED7ED7-DA0F-4B62-911F-CF52311475F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1ED7ED7-DA0F-4B62-911F-CF52311475F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1ED7ED7-DA0F-4B62-911F-CF52311475F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3321E26C-2824-4724-B9AC-7254ABEC2503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3321E26C-2824-4724-B9AC-7254ABEC2503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3321E26C-2824-4724-B9AC-7254ABEC2503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3321E26C-2824-4724-B9AC-7254ABEC2503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2992591-5545-49EC-9DD2-00542C201A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2992591-5545-49EC-9DD2-00542C201A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2992591-5545-49EC-9DD2-00542C201A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2992591-5545-49EC-9DD2-00542C201A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FA79F2-651C-49BF-9ECF-3E18A784AD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FA79F2-651C-49BF-9ECF-3E18A784AD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FA79F2-651C-49BF-9ECF-3E18A784AD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FA79F2-651C-49BF-9ECF-3E18A784AD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
