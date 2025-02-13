@@ -23,6 +23,7 @@ var mapperConfiguration = new MapperConfiguration(cfg => {
     cfg.AddProfile<TaxProfile>();
     cfg.AddProfile<ProductProfile>();
     cfg.AddProfile<StockProfile>();
+    cfg.AddProfile<TransactionProfile>();
 });
 mapperConfiguration.AssertConfigurationIsValid();
 
@@ -34,6 +35,7 @@ builder.Services.AddAutoMapper(typeof(EmployeeProfile));
 builder.Services.AddAutoMapper(typeof(TaxProfile));
 builder.Services.AddAutoMapper(typeof(ProductProfile));
 builder.Services.AddAutoMapper(typeof(StockProfile));
+builder.Services.AddAutoMapper(typeof(TransactionProfile));
 
 var app = builder.Build();
 

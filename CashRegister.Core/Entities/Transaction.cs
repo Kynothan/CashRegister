@@ -24,5 +24,10 @@ namespace CashRegister.Core.Entities
 
         [ForeignKey(nameof(IdTax))]
         public required Tax Tax { get; set; }
+
+        //public required int IdPayment { get; set; }
+
+        //[ForeignKey(nameof(IdPayment))]
+        //public required Payment Payment { get; set; }
     }
 }

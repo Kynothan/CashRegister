@@ -9,6 +9,8 @@ namespace CashRegister.Core.Repositories
 {
     public interface ITransactionRepository
     {
+        public Task<IEnumerable<Transaction>> GetTransactions();
+
         public Task<Transaction?> GetTransactionById(int id);
 
         public Task CreateTransaction(Transaction transaction);

@@ -29,6 +29,7 @@ namespace CashRegister.DependencyInjection
             services.AddScoped<ProductUseCase>();
             services.AddScoped<StockUseCase>();
             services.AddScoped<TaxUseCase>();
+            services.AddScoped<TransactionUseCase>();
 
             return services;
         }
